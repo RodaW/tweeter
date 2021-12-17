@@ -1,0 +1,10 @@
+.wrapper>div>header{
+  width:100%;
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  background-image: url(/images/arches.png);
+}

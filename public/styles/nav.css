@@ -1,0 +1,20 @@
+nav {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056a1;
+  color: #ffffff;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position:fixed;
+  top:0;
+}
+nav strong p {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+nav strong {
+  text-align: center;
+}

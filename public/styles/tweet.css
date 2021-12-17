@@ -1,0 +1,50 @@
+.tweets-container {
+  margin-top: 4rem;
+  margin-bottom:4rem;
+}
+.tweet {
+  border: 4px solid #000;
+  margin-bottom: 2rem;
+}
+.tweet header,
+.tweet footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.tweet header > div {
+  display: flex;
+  align-items: center;
+}
+.tweet header > div span {
+  margin-left: 1rem;
+}
+.tweet header img {
+  height: 70px;
+  width: 70px;
+}
+.tweet header > span {
+  color: #aaa;
+}
+.tweet .content {
+  padding: 0 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.tweet .content p {
+  margin-top: 0;
+}
+.tweet footer {
+  margin: 0 0.5rem;
+  border-top: 4px solid #000;
+}
+.tweet footer i {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+.tweet:hover{
+  box-shadow: 8px 8px 8px rgba(0,0, 0,0.2);
+}
+.tweet footer i:hover{
+  color:orange
+}

@@ -6,7 +6,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -23,3 +25,36 @@ body {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+body * {
+  font-family: "Source Sans Pro", sans-serif;
+}
+nav > span {
+  font-family: "Bungee", sans sans-serif;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+.wrapper > div {
+  width: 50%;
+  padding: 0 3rem;
+}
+.container {
+  width: 50%;
+  padding: 0 1rem;
+}
+@media only screen and (max-width: 767px){
+  .wrapper > div {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }  
+}
+
+
