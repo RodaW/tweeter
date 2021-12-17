@@ -3,6 +3,12 @@
 Tweeter is a simple, single-page Twitter clone.
 
 This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+## Final Product
+!["Screenshot of the Homepage"](https://github.com/RodaW/tweeter/blob/master/public/docs/homepage.png?raw=true)
+!["Screenshot of the Tweets"](https://github.com/RodaW/tweeter/blob/master/public/docs/tweets.png?raw=true)
+!["Screenshot of the Compose a tweet"](https://github.com/RodaW/tweeter/blob/master/public/docs/compose-a-tweet.png?raw=true)
+!["Screenshot of the Tweet too long error message "](https://github.com/RodaW/tweeter/blob/master/public/docs/msg%20too%20long.png?raw=true)
+
 
 ## Getting Started
 
