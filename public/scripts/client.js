@@ -4,6 +4,7 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 function createTweetElement(tweet) {
+  $(".new-tweet .counter").text("140");
   var div = document.createElement("div");
   div.appendChild(document.createTextNode(tweet.content.text));
   var content = div.innerHTML;
